@@ -15,7 +15,7 @@ bundle install
 rails generate controller welcome index
 ```
 
-see `controllers/welcome.rb`
+see `controllers/welcome_contorller.rb`
 
 edit `config/routes.rb`
 
@@ -35,7 +35,7 @@ edit `config/routes.rb`
 resources :articles
 ```
 
-edit `controllers/articles.rb`
+edit `controllers/articles_controller.rb`
 
 ```ruby
 def index
@@ -48,7 +48,7 @@ add and edit `views/articles/index.html.haml`
 %h1 listing articles
 ```
 
-edit `controllers/articles.rb`
+edit `controllers/articles_controller.rb`
 
 ```ruby
 def new
